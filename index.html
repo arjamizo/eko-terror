@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ReactApp</title>
+  <script src="https://unpkg.com/react@17.0.2/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.development.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Sharp" rel="stylesheet" defer/>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.8.3/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://unpkg.com/@tailwindcss/typography@0.0.0-cbfeb47/dist/typography.min.css" defer/>
+  <link rel="stylesheet" href="https://unpkg.com/@fontsource/sora@5.0.12/index.css" defer>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <style>
+    body {
+      min-height: 90vh;
+      font-family: Sora;
+    }
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    }
+    #root {
+      
+    }
+    @media (prefers-color-scheme: dark) {
+      .prose h1 {
+        color: white;
+      }
+      .menu .material-icons {
+        color: white;
+      }
+    }
+    .prose .menu ul>li, .prose ul.menu>li {
+      list-style: none;
+      padding-left: unset;
+    }
+    .prose .menu ul>li::before, .prose ul.menu>li::before {
+      width: 0px;
+      height: 0px;
+      display: none;
+    }
+    .prose .menu a {
+      text-decoration: unset;
+    }
+  </style>
+</head>
+<body>
+  <div id="root">
+    <span class="loading loading-infinity loading-lg">1</span>
+  </div>
+  <script src="./app-ekot.js"></script>
+</body>
+</html>
